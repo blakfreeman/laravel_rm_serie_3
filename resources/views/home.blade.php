@@ -1,0 +1,10 @@
+@extends("template.main")
+@section('content')
+    @include("partials.headerArea")
+    @include("partials.navigation")
+    @include("partials.about")
+    @include("partials.services")
+    @include("partials.partfolio")
+    @include("partials.contacts")
+    @include("partials.footer")
+@endsection
